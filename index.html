@@ -9,30 +9,63 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
-<body>
-    <header>
-        <h1>
-            hiii ^-^
-        </h1>
+<body class="grid_container">
+    <header class="item_one">  
+
     </header>
 
-    <p>
-        The Industrial Revolution and its consequences have been a disaster for the human race. 
-        They have greatly increased the life-expectancy of those of us who live in “advanced” countries, 
-        but they have destabilized society, have made life unfulfilling, have subjected human beings to indignities, 
-        have led to widespread psychological suffering (in the Third World to physical suffering as well) 
-        and have inflicted severe damage on the natural world. The continued development of technology will worsen the situation. 
-        It will certainly subject human beings to greater indignities and inflict greater damage on the natural world, 
-        it will probably lead to greater social disruption and psychological suffering, 
-        and it may lead to increased physical suffering even in “advanced” countries.
-    </p>
+    <div class="item_two">
+        <div id="saudacao" >
 
-    <img src="vaigurintia.jpg" alt="imagem2" >
+            <h2>
+                 BEM VINDO
+            </h2>
+             
+            <H4> 
+                Você pode entrar com seu email  
+            </H4>
+    
+        </div>  
+    
+        <form  action="/recebe-dados-form-do-index" method="post" > 
+    
+            <div>
+                <label for="nome">Email</label>
+                <input type="email" id="email" />
+            </div>
+    
+            <br>
+    
+            <div>
+                <label for="email">Senha</label>
+                <input type="password" id="senha" />
+            </div>
+    
+            <br>
+    
+            <div class="container">
+    
+                <button type="submit" id="btnEntrar" > ENTRAR </button>      
+        
+                <p id="ou"> 
+                    ou 
+                </p>
+        
+    
+                <button type="button" id="btnGoogle"> Entrar com o Google</button>
+    
+                <p>
+                    Ainda não tem uma conta? <a href="https://static.gazetaesportiva.com/uploads/imagem/2019/03/01/fd_corinthians_0103-397-1024x681.jpg" id="cadLink" > Cadastre-se </a> 
+                </p>
+            </div>
+    
+            
+            
+        </form>
+    
+    </div>
 
-    <footer>
-        <h1>
-            byyyye ^3^
-        </h1>
+    <footer class="item_three">
     </footer>
     
 </body>
